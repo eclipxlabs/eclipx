@@ -1,0 +1,51 @@
+[package]
+name = "eclipx-core"
+version = "0.4.2"
+edition = "2021"
+description = "On-chain ZK-state compression program for eclipx"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "eclipx_core"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = { version = "0.30.1", features = ["init-if-needed"] }
+anchor-spl = "0.30.1"
+bytemuck = { version = "1.14", features = ["derive"] }
+
+# touch: 64779781
+
+# touch: 6b5f4ffb
+
+# touch: b8259158
+
+# touch: c11ddee7
+
+# touch: 784f3aa7
+
+# touch: 36d14d0e
+
+# touch: 666185e9
+
+# touch: 4e7972ac
+
+# touch: 3b31b629
+
+# touch: 084fd947
+
+# touch: 6a76d68b
+
+# touch: 8070fef9
+
+# touch: 4bce1d02
+
+# touch: 3b3b8b9f
+
+# touch: 17d86342

@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = [
+    "programs/eclipx_core",
+    "libs/eclipx_math",
+    "cli",
+]
+
+[workspace.package]
+version = "0.4.2"
+edition = "2021"
+license = "Apache-2.0"
+repository = "https://github.com/eclipxlabs/eclipx"

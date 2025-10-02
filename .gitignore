@@ -1,0 +1,17 @@
+target/
+node_modules/
+dist/
+.anchor/
+.DS_Store
+*.swp
+*.swo
+.env
+.env.local
+main.py
+generate_banner.py
+banner.txt
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+test-ledger/

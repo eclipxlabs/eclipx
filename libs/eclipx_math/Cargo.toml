@@ -1,0 +1,43 @@
+[package]
+name = "eclipx-math"
+version = "0.4.2"
+edition = "2021"
+description = "Mathematical primitives for eclipx ZK operations"
+
+[dependencies]
+
+# touch: 97ca1c49
+
+# touch: 3f99b100
+
+# touch: 4782c80a
+
+# touch: fa77ebc5
+
+# touch: af7d89e3
+
+# touch: f16492f1
+
+# touch: 81e6e771
+
+# touch: 7e2ef9bb
+
+# touch: 7cd6aa83
+
+# touch: a511dd42
+
+# touch: 91bbea73
+
+# touch: aa8edb51
+
+# touch: 51f8fddc
+
+# touch: 30c7434f
+
+# touch: 57150ca5
+
+# touch: a7fe60fd
+
+# touch: 4653803c
+
+# touch: fff957f9

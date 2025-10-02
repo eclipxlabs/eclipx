@@ -1,0 +1,90 @@
+#[repr(u8)]
+#[derive(Clone, Copy, PartialEq)]
+pub enum TxStatus {
+    Pending = 0,
+    Routing = 1,
+    Compressing = 2,
+    Confirmed = 3,
+    Failed = 4,
+}
+
+pub fn compute_merkle_root(leaves: &[[u8; 32]]) -> [u8; 32] {
+    if leaves.is_empty() {
+        return [0u8; 32];
+    }
+    if leaves.len() == 1 {
+        return leaves[0];
+    }
+
+    let mut current_level = leaves.to_vec();
+
+    while current_level.len() > 1 {
+        let mut next_level = Vec::new();
+        for chunk in current_level.chunks(2) {
+            let left = chunk[0];
+            let right = if chunk.len() > 1 { chunk[1] } else { chunk[0] };
+            let mut combined = [0u8; 64];
+            combined[..32].copy_from_slice(&left);
+            combined[32..].copy_from_slice(&right);
+            next_level.push(hash_pair(&combined));
+        }
+        current_level = next_level;
+    }
+
+    current_level[0]
+}
+
+fn hash_pair(data: &[u8; 64]) -> [u8; 32] {
+    use anchor_lang::solana_program::hash::hash;
+    let h = hash(data);
+    h.to_bytes()
+}
+
+pub fn verify_proof_hash(proof: &[u8; 32], expected: &[u8; 32]) -> bool {
+    proof == expected
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_merkle_root_single() {
+        let leaf = [42u8; 32];
+        let root = compute_merkle_root(&[leaf]);
+        assert_eq!(root, leaf);
+    }
+
+    #[test]
+    fn test_merkle_root_empty() {
+        let root = compute_merkle_root(&[]);
+        assert_eq!(root, [0u8; 32]);
+    }
+
+    #[test]
+    fn test_verify_proof() {
+        let proof = [1u8; 32];
+        assert!(verify_proof_hash(&proof, &proof));
+        assert!(!verify_proof_hash(&proof, &[2u8; 32]));
+    }
+}
+
+// touch: 3fdab7f3
+
+// touch: 456d5c76
+
+// touch: cc566492
+
+// touch: bd1a0e2e
+
+// touch: 718efbe1
+
+// touch: da6b7a1d
+
+// touch: 6ff1fc23
+
+// touch: 7ff649a3
+
+// touch: 3e1a9599
+
+// touch: 123cade3

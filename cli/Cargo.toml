@@ -1,0 +1,43 @@
+[package]
+name = "eclipx-cli"
+version = "0.4.2"
+edition = "2021"
+description = "CLI tool for managing eclipx relay nodes"
+
+[[bin]]
+name = "eclipx"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+solana-sdk = "~1.18"
+solana-client = "~1.18"
+tokio = { version = "1.35", features = ["full"] }
+
+# touch: 4dc6561d
+
+# touch: 51d0e31d
+
+# touch: 4e66c29e
+
+# touch: b5b8e147
+
+# touch: 2da8c06a
+
+# touch: 184566ee
+
+# touch: 2c1ac56c
+
+# touch: ffa1993d
+
+# touch: adf3e276
+
+# touch: df88ef8c
+
+# touch: 7380a847
+
+# touch: 6e355634
+
+# touch: ff25e1c7
