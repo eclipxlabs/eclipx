@@ -74,3 +74,5 @@ pub struct DeactivateStealthMode<'info> {
     )]
     pub privacy_state: Account<'info, PrivacyState>,
 }
+
+// touch: 794b1844
