@@ -123,3 +123,5 @@ pub struct CompressedTxSubmitted {
 pub struct StealthModeDeactivated {
     pub authority: Pubkey,
 }
+
+// touch: eb8c292e
