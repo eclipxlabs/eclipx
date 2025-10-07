@@ -68,3 +68,5 @@ mod tests {
         assert!(!verify_proof_hash(&proof, &[2u8; 32]));
     }
 }
+
+// touch: 0ef36adf
