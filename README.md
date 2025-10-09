@@ -133,27 +133,3 @@ eclipx score <WALLET_ADDRESS>
 ## License
 
 Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for details.
-
-<!-- touch: 27763008 -->
-
-<!-- touch: 01111d96 -->
-
-<!-- touch: 43206656 -->
-
-<!-- touch: d79f78cf -->
-
-<!-- touch: 66d053b4 -->
-
-<!-- touch: 84507da0 -->
-
-<!-- touch: 948d6d00 -->
-
-<!-- touch: e2e73e48 -->
-
-<!-- touch: f9be1692 -->
-
-<!-- touch: b77a142c -->
-
-<!-- touch: 8beeb141 -->
-
-<!-- touch: a7b0d3e2 -->
