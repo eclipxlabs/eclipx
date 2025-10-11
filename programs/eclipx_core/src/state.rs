@@ -36,3 +36,5 @@ pub struct TransactionRecord {
 impl TransactionRecord {
     pub const LEN: usize = 32 + 32 + 32 + 32 + 8 + 8 + 1 + 1 + 6;
 }
+
+// touch: 3c9a110c
