@@ -74,17 +74,3 @@ pub struct DeactivateStealthMode<'info> {
     )]
     pub privacy_state: Account<'info, PrivacyState>,
 }
-
-// touch: 2b91b6dc
-
-// touch: b22b933b
-
-// touch: ed42b32e
-
-// touch: c796db2f
-
-// touch: 18758c65
-
-// touch: 5243861f
-
-// touch: 08e4b9a9
