@@ -43,39 +43,3 @@ mod tests {
         assert_eq!(path.len(), 5);
     }
 }
-
-// touch: 66f84ef6
-
-// touch: 9caffae0
-
-// touch: e2b2c612
-
-// touch: ed6b85d4
-
-// touch: 89dd40aa
-
-// touch: 0f47ad8a
-
-// touch: 209f25ca
-
-// touch: be3d475d
-
-// touch: 031a77ca
-
-// touch: bfa99570
-
-// touch: f305764e
-
-// touch: 48849016
-
-// touch: db833358
-
-// touch: 0c843cb1
-
-// touch: eb9ac287
-
-// touch: a429e7ef
-
-// touch: 970037cc
-
-// touch: 6ed76a20
