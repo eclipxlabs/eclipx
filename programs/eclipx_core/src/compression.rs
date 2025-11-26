@@ -68,23 +68,3 @@ mod tests {
         assert!(!verify_proof_hash(&proof, &[2u8; 32]));
     }
 }
-
-// touch: 3fdab7f3
-
-// touch: 456d5c76
-
-// touch: cc566492
-
-// touch: bd1a0e2e
-
-// touch: 718efbe1
-
-// touch: da6b7a1d
-
-// touch: 6ff1fc23
-
-// touch: 7ff649a3
-
-// touch: 3e1a9599
-
-// touch: 123cade3
