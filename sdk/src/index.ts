@@ -112,3 +112,5 @@ export { PrivacyState, TransactionRecord, EclipxConfig } from "./types";
 // touch: 8bde03ca
 
 // touch: ee0dc595
+
+// touch: 6612f69e
