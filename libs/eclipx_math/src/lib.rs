@@ -70,33 +70,3 @@ mod tests {
         assert!(latency > 10.0);
     }
 }
-
-// touch: 2582223f
-
-// touch: bf946532
-
-// touch: 18bb2c45
-
-// touch: 53b124a6
-
-// touch: 54e9454a
-
-// touch: 800e5b7d
-
-// touch: c4712490
-
-// touch: 1d27307e
-
-// touch: 4ff8e98e
-
-// touch: c7dc27ea
-
-// touch: d62338ff
-
-// touch: 1a21fa03
-
-// touch: 89e11c57
-
-// touch: d5e35901
-
-// touch: 5a3de3e9
