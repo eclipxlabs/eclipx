@@ -39,4 +39,4 @@ mod tests {
         assert_ne!(digest, [0u8; 32]);
     }
 }
-// rev-01018
+// rev-01021
