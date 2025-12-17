@@ -81,23 +81,3 @@ fn main() {
         }
     }
 }
-
-// touch: 8652a6fa
-
-// touch: b04ca227
-
-// touch: 16c39462
-
-// touch: 28611776
-
-// touch: 48a59451
-
-// touch: ec6921b6
-
-// touch: c0cfa7e1
-
-// touch: 97a60bf2
-
-// touch: 00cb961d
-
-// touch: a345c4c3
