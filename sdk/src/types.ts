@@ -49,27 +49,3 @@ export interface StealthTransferParams {
   obfuscationLevel: number;
   relayCount: number;
 }
-
-// touch: 100c02fa
-
-// touch: 7dc65438
-
-// touch: fdd232f0
-
-// touch: 5ec357b6
-
-// touch: 9ec9d9b9
-
-// touch: 7d26c2f2
-
-// touch: 114d5106
-
-// touch: bdb0e90f
-
-// touch: afc27a6f
-
-// touch: 40355884
-
-// touch: 50a3bbdb
-
-// touch: dad73c5b
