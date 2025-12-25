@@ -2,3 +2,4 @@
 channel = "1.75.0"
 components = ["rustfmt", "clippy"]
 profile = "minimal"
+# rev-01030
