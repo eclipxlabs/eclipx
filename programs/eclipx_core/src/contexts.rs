@@ -96,3 +96,5 @@ pub struct DeactivateStealthMode<'info> {
 // touch: ae7b96d3
 
 // touch: 1c8aab0d
+
+// touch: 8e6e78fc
