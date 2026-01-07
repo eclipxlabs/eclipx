@@ -86,35 +86,3 @@ export class EclipxClient {
 }
 
 export { PrivacyState, TransactionRecord, EclipxConfig } from "./types";
-
-// touch: 22f12dfc
-
-// touch: 980d932f
-
-// touch: a4a447f3
-
-// touch: edf33c08
-
-// touch: 9da8e12b
-
-// touch: d8896c4c
-
-// touch: 32cea4b1
-
-// touch: 389f7965
-
-// touch: f9c55f03
-
-// touch: 46f060b5
-
-// touch: c5798371
-
-// touch: bc210647
-
-// touch: ff433428
-
-// touch: 811a5ed0
-
-// touch: 02a2bce0
-
-// touch: cbd9fc4b
