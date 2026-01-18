@@ -24,3 +24,5 @@ witness hash.
   prover should upgrade by bumping the dependency only.
 - The Rust crate keeps the ```prove``` and ```verify``` functions as the
   stable public surface; everything else is internal.
+
+<!-- rev-01058 -->
