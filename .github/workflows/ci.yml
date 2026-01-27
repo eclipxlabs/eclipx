@@ -61,27 +61,3 @@ jobs:
       - name: Run tests
         run: npm test
         working-directory: ./sdk
-
-# touch: 0a600663
-
-# touch: 98166f64
-
-# touch: cd3c07e2
-
-# touch: 6e6747cb
-
-# touch: 6f7514e4
-
-# touch: e7c78290
-
-# touch: 795af02c
-
-# touch: 16da97ae
-
-# touch: 3de5a371
-
-# touch: c0409348
-
-# touch: 921806a6
-
-# touch: 9efdff57
