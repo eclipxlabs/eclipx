@@ -47,4 +47,4 @@ describe('Prover', () => {
     expect(proof.predicateKind).toBe(PredicateKind.NotBlacklisted);
   });
 });
-// rev-01084
+// rev-01093
