@@ -57,5 +57,3 @@ Use the issue tracker with one of the labels:
 
 Please include a minimum reproduction, the expected behaviour, and the actual
 behaviour.
-
-<!-- rev-01061 -->
