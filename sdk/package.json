@@ -1,7 +1,7 @@
 {
   "name": "@fixr/sdk",
   "version": "0.3.1",
-  "description": "ZK Selective Disclosure Protocol on Solana — develop only what matters.",
+  "description": "ZK Selective Disclosure Protocol on Solana \u2014 develop only what matters.",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -15,8 +15,7 @@
   ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "test": "jest --runInBand",
-    "lint": "eslint \"src/**/*.ts\" --max-warnings 0"
+    "test": "jest --runInBand"
   },
   "dependencies": {
     "@solana/web3.js": "^1.98.0",
